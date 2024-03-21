@@ -9,7 +9,7 @@
     ```
     - Be sure the change the directories `--data_dir` and `--save_dir`.
 3. Send us the command to download your code, e.g, 
-   - `git clone [Your repository link]`
+   - `git clone https://github.com/xiapeizhe12138/R2Net.git`
    - We will do the following steps to add your code and model checkpoint to the repository.
    
 ## How to calculate the number of parameters, FLOPs, and activations
