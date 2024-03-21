@@ -1,2 +1,0 @@
-Model               	Val PSNR  	Val Time [ms] 	Params [M]	FLOPs [G] 	Acts [M]	Mem [M] 	Conv    
-1_R2Net	                26.90     	40.01         	0.215     	13.05     	52.52   	370.30  	  27    
