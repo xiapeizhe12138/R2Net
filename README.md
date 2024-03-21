@@ -2,7 +2,7 @@
 
 ## How to test the baseline model?
 
-1. `git clone https://github.com/ofsoundof/NTIRE2023_ESR.git`
+1. `git clone https://github.com/xiapeizhe12138/R2Net.git`
 2. Select the model you would like to test from [`run.sh`](./run.sh)
    if you want to run on the val data only :
     ```bash
@@ -13,9 +13,6 @@
     CUDA_VISIBLE_DEVICES=0 python test_demo.py --data_dir [path to your data dir] --save_dir [path to your save dir] --include_test --model_id 29
     ```
     - Be sure the change the directories `--data_dir` and `--save_dir`.
-   
-3. the command to download your code, e.g, 
-   - `git clone [Your repository link]`
    
 ## How to calculate the number of parameters, FLOPs, and activations
 
