@@ -5,7 +5,11 @@
 1. `git clone https://github.com/ofsoundof/NTIRE2023_ESR.git`
 2. Select the model you would like to test from [`run.sh`](./run.sh)
     ```bash
-    CUDA_VISIBLE_DEVICES=0 python test_demo.py --data_dir [path to your data dir] --save_dir [path to your save dir] --model_id 1
+    CUDA_VISIBLE_DEVICES=0 python test_demo.py --data_dir [path to your data dir] --save_dir [path to your save dir] --model_id 29
+    ```
+    or
+    ```bash
+    CUDA_VISIBLE_DEVICES=0 python test_demo.py --data_dir [path to your data dir] --save_dir [path to your save dir] --include_test --model_id 29
     ```
     - Be sure the change the directories `--data_dir` and `--save_dir`.
 3. Send us the command to download your code, e.g, 
