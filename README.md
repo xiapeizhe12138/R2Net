@@ -7,7 +7,7 @@
     ```bash
     CUDA_VISIBLE_DEVICES=0 python test_demo.py --data_dir [path to your data dir] --save_dir [path to your save dir] --model_id 29
     ```
-    or
+    or if you want to use the test data
     ```bash
     CUDA_VISIBLE_DEVICES=0 python test_demo.py --data_dir [path to your data dir] --save_dir [path to your save dir] --include_test --model_id 29
     ```
